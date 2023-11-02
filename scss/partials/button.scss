@@ -1,0 +1,7 @@
+$colorvalue: #0e6cff, #ff8700, #4caf50;
+
+@each $el in $colorvalue {
+  .box#{$el} {
+    background-color: $el;
+  }
+}

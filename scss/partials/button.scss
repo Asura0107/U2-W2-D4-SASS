@@ -1,7 +1,7 @@
-$colorvalue: #0e6cff, #ff8700, #4caf50;
+$colorvalue: ("blue": #0e6cff, "orange": #ff8700, "green": #4caf50)  ;
 
-@each $el in $colorvalue {
-  .box#{$el} {
+@each $key,$el in $colorvalue {
+  .box-#{$key} {
     background-color: $el;
   }
 }

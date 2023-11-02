@@ -1,3 +1,15 @@
+.box-blue {
+  background-color: #0e6cff;
+}
+
+.box-orange {
+  background-color: #ff8700;
+}
+
+.box-green {
+  background-color: #4caf50;
+}
+
 body {
   margin: 0;
 }
